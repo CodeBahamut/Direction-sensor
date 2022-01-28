@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Import the css file   -->
+    <link rel="stylesheet" href="../static/style.css">
+<!--    <meta http-equiv="refresh" content="60" />-->
+
+    <title></title>
+
+</head>
+<body>
+
+<!--Define this part of the code as all being of the grid-container class-->
+<!--An id is given to the 4 arrows to be able to change them out later using the script.js file-->
+<div class="grid-container">
+  <img src="../static/images/Block.png" alt="Block">
+  <img id="up-img" src="../static/images/Grey-Arrow-Up.png" alt="Arrow-Up">
+  <img src="../static/images/Block.png" alt="Block">
+  <img id="left-img" src="../static/images/Grey-Arrow-Left.png" alt="Arrow-Left">
+  <img src="../static/images/Block.png" alt="Block">
+  <img id="right-img" src="../static/images/Grey-Arrow-Right.png" alt="Arrow-Right">
+  <img src="../static/images/Block.png" alt="Block">
+  <img id="down-img" src="../static/images/Grey-Arrow-Down.png" alt="Arrow-Down">
+  <img src="../static/images/Block.png" alt="Block">
+</div>
+<!--Import the script.js file to use the switch case-->
+<script type="text/javascript" src="../static/script.js"></script>
+<!--<input type = "button" onclick = "leftArrow()" value = "Button">-->
+<script>changeArrow("{{direction}}")</script>
+<!--<script src="/static/script.js"></script>-->
+
+</body>
+</html>

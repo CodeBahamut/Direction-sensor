@@ -1,0 +1,22 @@
+/* CSS code for the grid view of the website */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    width: 45%;
+    align-items: stretch;
+    justify-items: center;
+}
+.grid-container img {
+  max-width: 100%;
+}
+
+/*style for the button*/
+/*.button {*/
+/*    background-color:whitesmoke;*/
+
+/*}*/
+
+/*.button:hover {*/
+/*    background-color(grey);*/
+/*}*/
